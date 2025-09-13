@@ -15,6 +15,12 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Agricultural variants
+        growth: "bg-growth text-white hover:bg-growth/90 shadow-lg",
+        earth: "bg-earth text-white hover:bg-earth/90 shadow-lg",
+        sky: "bg-sky text-white hover:bg-sky/90 shadow-lg",
+        harvest: "bg-harvest text-foreground hover:bg-harvest/90 shadow-lg",
+        farmer: "bg-gradient-to-r from-growth to-earth text-white hover:opacity-90 shadow-lg border-0",
       },
       size: {
         default: "h-10 px-4 py-2",
